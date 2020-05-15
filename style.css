@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.hero{
+    background-image: url("./img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 776px;
+}
