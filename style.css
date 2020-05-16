@@ -121,6 +121,7 @@ body{
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
+    display: table-cell;
 }
 .btn--active{
     background-color: rgb(0, 137, 123);
