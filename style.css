@@ -36,6 +36,7 @@ h3{
 .container{
     width: 1170px;
     margin: 0 auto;
+    padding: 0;
 }
 .all-menu{
     width: 100%;
@@ -309,3 +310,55 @@ h3{
 .works__link--active{
     color: rgb(255,255,255);
 }
+.works__images{
+    padding-top: 120px;
+    height: 770px;
+    width: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    list-style: none;
+}
+.works__images-item{
+    height: 368px;
+    width: 370px;
+    overflow: hidden;
+    
+}
+.works__img{
+    position: relative;
+}
+.works__img--first{
+    top: -7px;
+    left: -23px;
+}
+.works__img--second{
+    left: -155px;
+}
+.works__img--third{
+    left: -50px;
+}
+.works__img--fourth{
+    left: -75px;
+}
+.works__img--fifth{
+    left: -90px;
+}
+.works__img--sixth{
+    left: -100px;
+}
+.works__all{
+    margin: 129px auto 133px;
+    display: block;
+    width: 230px;
+    text-decoration: none;
+}
+/* .works__image-link--active{
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+} */
