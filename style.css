@@ -441,3 +441,28 @@ h3{
 .prices__item--active{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+.team_title{
+    padding-top: 123px;
+}
+.team__members{
+    padding-top: 120px;
+    height: 468px;
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 0;
+    position: relative;
+}
+.team__member{
+    width: 370px;
+}
+.team__member-photo{
+    height: 320px;
+    width: inherit;
+    border-radius: 5px;
+    position: absolute;
+}
+.team__member-photo--first{
+    left: -35px;
+}
