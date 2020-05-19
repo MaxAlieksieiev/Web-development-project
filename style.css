@@ -380,7 +380,12 @@ h3{
 }
 .prices__item-figure{
     background-color: rgb(57, 73, 171);
-    height: 210px;
+    height: 180px;
+}
+.prices__item-triagle{
+    border-left: 30px solid  rgb(57, 73, 171);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
 }
 .prices__item-title{
     font-size: 25px;
@@ -428,6 +433,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-bottom: 10px;
 }
 .prices_btn{
     padding-left: 105px;;
