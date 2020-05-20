@@ -462,7 +462,12 @@ h3{
     width: inherit;
     border-radius: 5px;
     position: absolute;
+    overflow: hidden;
 }
 .team__member-photo--first{
     left: -35px;
+}
+.social-network{
+    display: flex;
+    margin-top: 30px;
 }
