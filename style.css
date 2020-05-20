@@ -458,16 +458,43 @@ h3{
     width: 370px;
 }
 .team__member-photo{
-    height: 320px;
+    min-height: 320px;
     width: inherit;
     border-radius: 5px;
     position: absolute;
     overflow: hidden;
 }
-.team__member-photo--first{
+/* .team__member-photo--first{
     left: -35px;
-}
+} */
 .social-network{
+    width: 285px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
 }
+.team__member-name{
+    margin-top: 350px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.team__member-profession{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.social-network__link{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 241, 241);
+    display: block;
+    border-radius: 4px;
+}
+/* .social-network__fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
