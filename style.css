@@ -496,8 +496,16 @@ h3{
 }
 .social-network__fb{
     padding-top: 11px;
+    
 }
 .blog{
     margin-top: 200px;
     background-color: rgb(228, 253, 249);
+}
+.blog__title{
+    padding-top: 115px;
+}
+.blog__item{
+    width: 570px;
+    height: 401px;
 }
