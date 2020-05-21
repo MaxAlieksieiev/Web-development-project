@@ -505,7 +505,15 @@ h3{
 .blog__title{
     padding-top: 115px;
 }
+.blog__list{
+    height: 1223px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .blog__item{
     width: 570px;
     height: 401px;
+    background-size: contain;
 }
