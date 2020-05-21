@@ -511,9 +511,14 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 120px;
 }
 .blog__item{
     width: 570px;
     height: 401px;
+}
+.blog__item-image{
     background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
