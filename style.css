@@ -131,6 +131,12 @@ h3{
     background-color: rgb(0, 137, 123);
     border: 2px solid rgb(0, 137, 123);
 }
+.down_bar{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .about{
     min-height: 547px;
     margin-top: 125px;
